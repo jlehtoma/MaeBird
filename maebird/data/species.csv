@@ -1,0 +1,451 @@
+1;CYG OLO;Cygnus olor; ;Kyhmyjoutsen;Knölsvan;Mute Swan;1;0
+2;CYG COL;Cygnus columbianus; ;Pikkujoutsen;Mindre sångsvan;Tundra Swan;1;0
+3;CYG CYG;Cygnus cygnus; ;Laulujoutsen;Sångsvan;Whooper Swan;1;0
+4;ANS FAB;Anser fabalis; ;Metsähanhi;Sädgås;Bean Goose;1;0
+5;ANS BRA;Anser brachyrhynchus; ;Lyhytnokkahanhi;Spetsbergsgås;Pink-footed Goose;1;0
+6;ANS ALB;Anser albifrons; ;Tundrahanhi;Bläsgås;Greater White-fronted Goose;1;0
+7;ANS ERY;Anser erythropus; ;Kiljuhanhi;Fjällgås;Lesser White-fronted Goose;1;0
+8;ANS ANS;Anser anser; ;Merihanhi;Grågås;Greylag Goose;1;0
+9;ANS CAE;Anser caerulescens; ;Lumihanhi;Snögås;Snow Goose;1;0
+10;BRA CAN;Branta canadensis;C;Kanadanhanhi;Kanadagås;Canada Goose;1;0
+11;BRA LEU;Branta leucopsis; ;Valkoposkihanhi;Vitkindad gås;Barnacle Goose;1;0
+12;BRA BER;Branta bernicla; ;Sepelhanhi;Prutgås;Brent Goose;1;0
+13;BRA RUF;Branta ruficollis; ;Punakaulahanhi;Rödhalsad gås;Red-breasted Goose;1;0
+14;TAD FER;Tadorna ferruginea; ;Ruostesorsa;Rostand;Ruddy Shelduck;1;0
+15;TAD TAD;Tadorna tadorna; ;Ristisorsa;Gravand;Common Shelduck;1;0
+16;AIX GAL;Aix galericulata;C;Mandariinisorsa;Mandarinand;Mandarin Duck;1;0
+17;ANA PEN;Anas penelope; ;Haapana;Bläsand;Eurasian Wigeon;1;0
+18;ANA AME;Anas americana; ;Amerikanhaapana;Amerikansk bläsand;American Wigeon;1;0
+19;ANA STR;Anas strepera; ;Harmaasorsa;Snatterand;Gadwall;1;0
+20;ANA CRE;Anas crecca; ;Tavi;Kricka;Common Teal;1;0
+21;ANA CAR;Anas carolinensis; ;Amerikantavi;Amerikansk kricka;Green-winged Teal;1;0
+22;ANA PLA;Anas platyrhynchos; ;Sinisorsa;Gräsand;Mallard;1;0
+23;ANA RUB;Anas rubripes;;Nokisorsa;Svartand;American Black Duck;1;0
+24;ANA ACU;Anas acuta; ;Jouhisorsa;Stjärtand;Northern Pintail;1;0
+25;ANA QUE;Anas querquedula; ;Heinätavi;Årta;Garganey;1;0
+26;ANA DIS;Anas discors; ;Sinisiipitavi;Blåvingad årta;Blue-winged Teal;1;0
+27;ANA CLY;Anas clypeata; ;Lapasorsa;Skedand;Northern Shoveler;1;0
+28;NET RUF;Netta rufina; ;Punapäänarsku;Rödhuvad dykand;Red-crested Pochard;1;0
+29;AYT FER;Aythya ferina; ;Punasotka;Brunand;Common Pochard;1;0
+30;AYT COL;Aythya collaris; ;Amerikantukkasotka;Ringand;Ring-necked Duck;1;0
+31;AYT NYR;Aythya nyroca; ;Ruskosotka;Vitögd dykand;Ferruginous Duck;1;0
+32;AYT FUL;Aythya fuligula; ;Tukkasotka;Vigg;Tufted Duck;1;0
+33;AYT MAR;Aythya marila; ;Lapasotka;Bergand;Greater Scaup;1;0
+34;AYT AFF;Aythya affinis;;Pikkulapasotka;Mindre bergand;Lesser Scaup;1;0
+35;SOM MOL;Somateria mollissima; ;Haahka;Ejder;Common Eider;1;0
+36;SOM SPE;Somateria spectabilis; ;Kyhmyhaahka;Praktejder;King Eider;1;0
+37;POL STE;Polysticta stelleri; ;Allihaahka;Alförrädare;Steller's Eider;1;0
+38;HIS HIS;Histrionicus histrionicus; ;Virta-alli;Strömand;Harlequin Duck;1;0
+39;CLA HYE;Clangula hyemalis; ;Alli;Alfågel;Long-tailed Duck;1;0
+40;MEL NIG;Melanitta nigra; ;Mustalintu;Sjöorre;Common Scoter;1;0
+41;MEL PER;Melanitta perspicillata; ;Pilkkaniska;Vitnackad svärta;Surf Scoter;1;0
+42;MEL FUS;Melanitta fusca; ;Pilkkasiipi;Svärta;Velvet Scoter;1;0
+43;BUC CLA;Bucephala clangula; ;Telkkä;Knipa;Common Goldeneye;1;0
+44;MER ALB;Mergus albellus; ;Uivelo;Salskrake;Smew;1;0
+45;MER SER;Mergus serrator; ;Tukkakoskelo;Småskrake;Red-breasted Merganser;1;0
+46;MER MER;Mergus merganser; ;Isokoskelo;Storskrake;Goosander;1;0
+47;OXY JAM;Oxyura jamaicensis;C;Kuparisorsa;Amerikansk kopparand;Ruddy Duck;1;0
+48;BON BON;Bonasa bonasia; ;Pyy;Järpe;Hazel Grouse;2;0
+49;LAG LAG;Lagopus lagopus; ;Riekko;Dalripa;Willow Ptarmigan;2;0
+50;LAG MUT;Lagopus muta; ;Kiiruna;Fjällripa;Rock Ptarmigan;2;0
+51;TET RIX;Tetrao tetrix; ;Teeri;Orre;Black Grouse;2;0
+52;TET URO;Tetrao urogallus; ;Metso;Tjäder;Western Capercaillie;2;0
+53;PER PER;Perdix perdix; ;Peltopyy;Rapphöna;Grey Partridge;3;0
+54;COT COT;Coturnix coturnix; ;Viiriäinen;Vaktel;Common Quail;3;0
+55;PHA COL;Phasianus colchicus;C;Fasaani;Fasan;Common Pheasant;3;0
+56;GAV STE;Gavia stellata; ;Kaakkuri;Smålom;Red-throated Diver;4;0
+57;GAV ARC;Gavia arctica; ;Kuikka;Storlom;Black-throated Diver;4;0
+58;GAV IMM;Gavia immer; ;Amerikanjääkuikka;Svartnäbbad islom;Great Northern Diver;4;0
+59;GAV ADA;Gavia adamsii; ;Jääkuikka;Vitnäbbad islom;Yellow-billed Diver;4;0
+60;TAC RUF;Tachybaptus ruficollis; ;Pikku-uikku;Smådopping;Little Grebe;5;0
+61;POD CRI;Podiceps cristatus; ;Silkkiuikku;Skäggdopping;Great Crested Grebe;5;0
+62;POD GRI;Podiceps grisegena; ;Härkälintu;Gråhakedopping;Red-necked Grebe;5;0
+63;POD AUR;Podiceps auritus; ;Mustakurkku-uikku;Svarthakedopping;Horned Grebe;5;0
+64;POD NIG;Podiceps nigricollis; ;Mustakaulauikku;Svarthalsad dopping;Black-necked Grebe;5;0
+65;FUL GLA;Fulmarus glacialis; ;Myrskylintu;Stormfågel;Northern Fulmar;6;0
+66;PUF GRI;Puffinus griseus; ;Nokiliitäjä;Grålira;Sooty Shearwater;6;0
+67;PUF PUF;Puffinus puffinus; ;Pikkuliitäjä;Mindre lira;Manx Shearwater;6;0
+68;HYD PEL;Hydrobates pelagicus; ;Merikeiju;Stormsvala;European Storm-Petrel;7;0
+69;OCE LEU;Oceanodroma leucorhoa; ;Myrskykeiju;Klykstjärtad stormsvala;Leach's Storm-Petrel;7;0
+70;OCE CAS;Oceanodroma castro; ;Madeirankeiju;Oceanlöpare;Madeiran Storm-Petrel;7;0
+71;MOR BAS;Morus bassanus; ;Suula;Havssula;Northern Gannet;8;0
+72;PHA CAR;Phalacrocorax carbo; ;Merimetso;Storskarv;Great Cormorant;9;0
+73;PHA ARI;Phalacrocorax aristotelis; ;Karimetso;Toppskarv;European Shag;9;0
+74;PEL ONO;Pelecanus onocrotalus;B;Pelikaani;Pelikan;Great White Pelican;10;0
+75;BOT STE;Botaurus stellaris; ;Kaulushaikara;Rördrom;Great Bittern;11;0
+76;IXO MIN;Ixobrychus minutus; ;Pikkuhaikara;Dvärgrördrom;Little Bittern;11;0
+77;NYC NYC;Nycticorax nycticorax; ;Yöhaikara;Natthäger;Black-crowned Night Heron;11;0
+78;ARD RAL;Ardeola ralloides; ;Rääkkähaikara;Rallhäger;Squacco Heron;11;0
+79;BUB IBI;Bubulcus ibis;;Lehmähaikara;Kohäger;Cattle Egret;11;0
+80;EGR GAR;Egretta garzetta;;Silkkihaikara;Silkeshäger;Little Egret;11;0
+81;EGR ALB;Egretta alba; ;Jalohaikara;Ägretthäger;Great Egret;11;0
+82;ARD CIN;Ardea cinerea; ;Harmaahaikara;Häger;Grey Heron;11;0
+83;ARD PUR;Ardea purpurea; ;Ruskohaikara;Purpurhäger;Purple Heron;11;0
+84;CIC NIG;Ciconia nigra; ;Mustahaikara;Svart stork;Black Stork;12;0
+85;CIC CIC;Ciconia ciconia; ;Kattohaikara;Vit stork;White Stork;12;0
+86;PLE FAL;Plegadis falcinellus; ;Pronssi-iibis;Bronsibis;Glossy Ibis;13;0
+87;PLA LEU;Platalea leucorodia; ;Kapustahaikara;Skedstork;Eurasian Spoonbill;13;0
+88;PER API;Pernis apivorus; ;Mehiläishaukka;Bivråk;European Honey Buzzard;14;0
+89;MIL MIG;Milvus migrans; ;Haarahaukka;Brun glada;Black Kite;14;0
+90;MIL MIL;Milvus milvus; ;Isohaarahaukka;Röd glada;Red Kite;14;0
+91;HAL HUS;Haliaeetus leucoryphus;B;Aromerikotka;Bandhavsörn;Pallas's Fish Eagle;14;0
+92;HAL ALB;Haliaeetus albicilla; ;Merikotka;Havsörn;White-tailed Eagle;14;0
+93;NEO PER;Neophron percnopterus; ;Pikkukorppikotka;Smutsgam;Egyptian Vulture;14;0
+94;GYP FUL;Gyps fulvus; ;Hanhikorppikotka;Gåsgam;Eurasian Griffon Vulture;14;0
+95;CIR GAL;Circaetus gallicus; ;Käärmekotka;Ormörn;Short-toed Eagle;14;0
+96;CIR AER;Circus aeruginosus; ;Ruskosuohaukka;Brun kärrhök;Western Marsh Harrier;14;0
+97;CIR CYA;Circus cyaneus; ;Sinisuohaukka;Blå kärrhök;Hen Harrier;14;0
+98;CIR MAC;Circus macrourus; ;Arosuohaukka;Stäpphök;Pallid Harrier;14;0
+99;CIR PYG;Circus pygargus; ;Niittysuohaukka;Ängshök;Montagu's Harrier;14;0
+100;ACC GEN;Accipiter gentilis; ;Kanahaukka;Duvhök;Northern Goshawk;14;0
+101;ACC NIS;Accipiter nisus; ;Varpushaukka;Sparvhök;Eurasian Sparrowhawk;14;0
+102;BUT BUT;Buteo buteo; ;Hiirihaukka;Ormvråk;Common Buzzard;14;0
+103;BUT RUF;Buteo rufinus; ;Arohiirihaukka;Örnvråk;Long-legged Buzzard;14;0
+104;BUT LAG;Buteo lagopus; ;Piekana;Fjällvråk;Rough-legged Buzzard;14;0
+105;AQU POM;Aquila pomarina; ;Pikkukiljukotka;Mindre skrikörn;Lesser Spotted Eagle;14;0
+106;AQU CLA;Aquila clanga; ;Kiljukotka;Större skrikörn;Greater Spotted Eagle;14;0
+107;AQU NIP;Aquila nipalensis; ;Arokotka;Stäppörn;Steppe Eagle;14;0
+108;AQU HEL;Aquila heliaca; ;Keisarikotka;Kejsarörn;Eastern Imperial Eagle;14;0
+109;AQU CHR;Aquila chrysaetos; ;Maakotka;Kungsörn;Golden Eagle;14;0
+110;HIE PEN;Hieraaetus pennatus; ;Pikkukotka;Dvärgörn;Booted Eagle;14;0
+111;PAN HAL;Pandion haliaetus; ;Sääksi;Fiskgjuse;Osprey;15;0
+112;FAL NAU;Falco naumanni; ;Pikkutuulihaukka;Rödfalk;Lesser Kestrel;16;0
+113;FAL TIN;Falco tinnunculus; ;Tuulihaukka;Tornfalk;Common Kestrel;16;0
+114;FAL VES;Falco vespertinus; ;Punajalkahaukka;Aftonfalk;Red-footed Falcon;16;0
+115;FAL COL;Falco columbarius; ;Ampuhaukka;Stenfalk;Merlin;16;0
+116;FAL SUB;Falco subbuteo; ;Nuolihaukka;Lärkfalk;Eurasian Hobby;16;0
+117;FAL ELE;Falco eleonorae; ;Välimerenhaukka;Eleonorafalk;Eleonora's Falcon;16;0
+118;FAL CHE;Falco cherrug; ;Aavikkohaukka;Tatarfalk;Saker;16;0
+119;FAL RUS;Falco rusticolus; ;Tunturihaukka;Jaktfalk;Gyr Falcon;16;0
+120;FAL PER;Falco peregrinus; ;Muuttohaukka;Pilgrimsfalk;Peregrine;16;0
+121;RAL AQU;Rallus aquaticus; ;Luhtakana;Vattenrall;Water Rail;17;0
+122;POR POR;Porzana porzana; ;Luhtahuitti;Småfläckig sumphöna;Spotted Crake;17;0
+123;POR PAR;Porzana parva; ;Pikkuhuitti;Mindre sumphöna;Little Crake;17;0
+124;POR PUS;Porzana pusilla; ;Kääpiöhuitti;Dvärgsumphöna;Baillon's Crake;17;0
+125;CRE CRE;Crex crex; ;Ruisrääkkä;Kornknarr;Corn Crake;17;0
+126;GAL CHL;Gallinula chloropus; ;Liejukana;Rörhöna;Common Moorhen;17;0
+127;POR ALL;Porphyrio alleni; ;Kurnuliejukana;Mindre sultanhöna;Allen's Gallinule;17;0
+128;FUL ATR;Fulica atra; ;Nokikana;Sothöna;Eurasian Coot;17;0
+129;GRU GRU;Grus grus; ;Kurki;Trana;Common Crane;18;0
+130;GRU VIR;Grus virgo; ;Neitokurki;Jungfrutrana;Demoiselle Crane;18;0
+131;TET RAX;Tetrax tetrax; ;Pikkutrappi;Småtrapp;Little Bustard;19;0
+132;CHL MAC;Chlamydotis macqueenii;B;Idänkaulustrappi;Kragtrapp;Macqueen's Bustard;19;0
+133;OTI TAR;Otis tarda;B;Isotrappi;Stortrapp;Great Bustard;19;0
+134;HAE OST;Haematopus ostralegus; ;Meriharakka;Strandskata;Eurasian Oystercatcher;20;0
+135;HIM HIM;Himantopus himantopus; ;Pitkäjalka;Styltlöpare;Black-winged Stilt;21;0
+136;REC AVO;Recurvirostra avosetta; ;Avosetti;Skärfläcka;Pied Avocet;21;0
+137;BUR OED;Burhinus oedicnemus; ;Paksujalka;Tjockfot;Stone-Curlew;22;0
+138;CUR CUR;Cursorius cursor; ;Aavikkojuoksija;Ökenlöpare;Cream-coloured Courser;23;0
+139;GLA PRA;Glareola pratincola; ;Pääskykahlaaja;Rödvingad vadarsvala;Collared Pratincole;23;0
+140;GLA NOR;Glareola nordmanni; ;Aropääskykahlaaja;Svartvingad vadarsvala;Black-winged Pratincole;23;0
+141;CHA DUB;Charadrius dubius; ;Pikkutylli;Mindre strandpipare;Little Ringed Plover;24;0
+142;CHA HIA;Charadrius hiaticula; ;Tylli;Större strandpipare;Common Ringed Plover;24;0
+143;CHA ALE;Charadrius alexandrinus; ;Mustajalkatylli;Svartbent strandpipare;Kentish Plover;24;0
+144;CHA LES;Charadrius leschenaultii; ;Aavikkotylli;Ökenpipare;Greater Sand Plover;24;0
+145;CHA ASI;Charadrius asiaticus;;Kaspiantylli;Kaspisk pipare;Caspian Plover;24;0
+146;CHA VER;Charadrius veredus; ;Gobintylli;Orientpipare;Oriental Plover;24;0
+147;CHA MOR;Charadrius morinellus; ;Keräkurmitsa;Fjällpipare;Eurasian Dotterel;24;0
+148;PLU FUL;Pluvialis fulva; ;Siperiankurmitsa;Sibirisk tundrapipare;Pacific Golden Plover;24;0
+149;PLU APR;Pluvialis apricaria; ;Kapustarinta;Ljungpipare;European Golden Plover;24;0
+150;PLU SQU;Pluvialis squatarola; ;Tundrakurmitsa;Kustpipare;Grey Plover;24;0
+151;VAN GRE;Vanellus gregarius; ;Arohyyppä;Stäppvipa;Sociable Lapwing;24;0
+152;VAN LEU;Vanellus leucurus; ;Suohyyppä;Sumpvipa;White-tailed Lapwing;24;0
+153;VAN VAN;Vanellus vanellus; ;Töyhtöhyyppä;Tofsvipa;Northern Lapwing;24;0
+154;CAL CAN;Calidris canutus; ;Isosirri;Kustsnäppa;Red Knot;25;0
+155;CAL ALB;Calidris alba; ;Pulmussirri;Sandlöpare;Sanderling;25;0
+156;CAL LIS;Calidris ruficollis; ;Rusokaulasirri;Rödhalsad snäppa;Red-necked Stint;25;0
+157;CAL UTA;Calidris minuta; ;Pikkusirri;Småsnäppa;Little Stint;25;0
+158;CAL TEM;Calidris temminckii; ;Lapinsirri;Mosnäppa;Temminck's Stint;25;0
+159;CAL LLA;Calidris minutilla;B;Amerikansirri;Dvärgsnäppa;Least Sandpiper;25;0
+160;CAL FUS;Calidris fuscicollis; ;Valkoperäsirri;Vitgumpsnäppa;White-rumped Sandpiper;25;0
+161;CAL BAI;Calidris bairdii; ;Eskimosirri;Gulbröstad snäppa;Baird's Sandpiper;25;0
+162;CAL MEL;Calidris melanotos; ;Palsasirri;Tuvsnäppa;Pectoral Sandpiper;25;0
+163;CAL ACU;Calidris acuminata; ;Suippopyrstösirri;Spetsstjärtad snäppa;Sharp-tailed Sandpiper;25;0
+164;CAL FER;Calidris ferruginea; ;Kuovisirri;Spovsnäppa;Curlew Sandpiper;25;0
+165;CAL HIM;Calidris himantopus; ;Pitkäkoipisirri;Styltsnäppa;Stilt Sandpiper;25;0
+166;CAL MAR;Calidris maritima; ;Merisirri;Skärsnäppa;Purple Sandpiper;25;0
+167;CAL ALP;Calidris alpina; ;Suosirri;Kärrsnäppa;Dunlin;25;0
+168;LIM FAL;Limicola falcinellus; ;Jänkäsirriäinen;Myrsnäppa;Broad-billed Sandpiper;25;0
+169;TRY SUB;Tryngites subruficollis; ;Tundravikla;Prärielöpare;Buff-breasted Sandpiper;25;0
+170;PHI PUG;Philomachus pugnax; ;Suokukko;Brushane;Ruff;25;0
+171;LYM MIN;Lymnocryptes minimus; ;Jänkäkurppa;Dvärgbeckasin;Jack Snipe;25;0
+172;GAL GAL;Gallinago gallinago; ;Taivaanvuohi;Enkelbeckasin;Common Snipe;25;0
+173;GAL MED;Gallinago media; ;Heinäkurppa;Dubbelbeckasin;Great Snipe;25;0
+174;LIM SCO;Limnodromus scolopaceus; ;Tundrakurppelo;Större beckasinsnäppa;Long-billed Dowitcher;25;0
+175;SCO RUS;Scolopax rusticola; ;Lehtokurppa;Morkulla;Eurasian Woodcock;25;0
+176;LIM LIM;Limosa limosa; ;Mustapyrstökuiri;Rödspov;Black-tailed Godwit;25;0
+177;LIM LAP;Limosa lapponica; ;Punakuiri;Myrspov;Bar-tailed Godwit;25;0
+178;NUM MIN;Numenius minutus; ;Taigakuovi;Dvärgspov;Little Curlew;25;0
+179;NUM PHA;Numenius phaeopus; ;Pikkukuovi;Småspov;Whimbrel;25;0
+180;NUM ARQ;Numenius arquata; ;Kuovi;Storspov;Eurasian Curlew;25;0
+181;TRI ERY;Tringa erythropus; ;Mustaviklo;Svartsnäppa;Spotted Redshank;25;0
+182;TRI TOT;Tringa totanus; ;Punajalkaviklo;Rödbena;Common Redshank;25;0
+183;TRI STA;Tringa stagnatilis; ;Lampiviklo;Dammsnäppa;Marsh Sandpiper;25;0
+184;TRI NEB;Tringa nebularia; ;Valkoviklo;Gluttsnäppa;Common Greenshank;25;0
+185;TRI FLA;Tringa flavipes; ;Keltajalkaviklo;Mindre gulbena;Lesser Yellowlegs;25;0
+186;TRI OCH;Tringa ochropus; ;Metsäviklo;Skogssnäppa;Green Sandpiper;25;0
+187;TRI GLA;Tringa glareola; ;Liro;Grönbena;Wood Sandpiper;25;0
+188;XEN CIN;Xenus cinereus; ;Rantakurvi;Tereksnäppa;Terek Sandpiper;25;0
+189;ACT HYP;Actitis hypoleucos; ;Rantasipi;Drillsnäppa;Common Sandpiper;25;0
+190;ACT MAC;Actitis macularius; ;Amerikansipi;Fläckdrillsnäppa;Spotted Sandpiper;25;0
+191;CAT SEM;Catoptrophorus semipalmatus; ;Preeriaviklo;Willetsnäppa;Willet;25;0
+192;ARE INT;Arenaria interpres; ;Karikukko;Roskarl;Ruddy Turnstone;25;0
+193;PHA TRI;Phalaropus tricolor; ;Amerikanvesipääsky;Wilsonsimsnäppa;Wilson's Phalarope;25;0
+194;PHA LOB;Phalaropus lobatus; ;Vesipääsky;Smalnäbbad simsnäppa;Red-necked Phalarope;25;0
+195;PHA FUL;Phalaropus fulicarius; ;Isovesipääsky;Brednäbbad simsnäppa;Red Phalarope;25;0
+196;STE POM;Stercorarius pomarinus; ;Leveäpyrstökihu;Bredstjärtad labb;Pomarine Skua;26;0
+197;STE CUS;Stercorarius parasiticus; ;Merikihu;Kustlabb;Arctic Skua;26;0
+198;STE LON;Stercorarius longicaudus; ;Tunturikihu;Fjällabb;Long-tailed Skua;26;0
+199;CAT SKU;Catharacta skua; ;Isokihu;Storlabb;Great Skua;26;0
+200;LAR MEL;Larus melanocephalus; ;Mustanmerenlokki;Svarthuvad mås;Mediterranean Gull;27;0
+201;LAR ATR;Larus atricilla; ;Nokisiipilokki;Sotvingad mås;Laughing Gull;27;0
+202;LAR PIP;Larus pipixcan; ;Preerianaurulokki;Präriemås;Franklin's Gull;27;0
+203;LAR MIN;Larus minutus; ;Pikkulokki;Dvärgmås;Little Gull;27;0
+204;LAR SAB;Larus sabini; ;Tiiralokki;Tärnmås;Sabine's Gull;27;0
+205;LAR RID;Larus ridibundus; ;Naurulokki;Skrattmås;Black-headed Gull;27;0
+206;LAR GEN;Larus genei; ;Kaitanokkalokki;Långnäbbad mås;Slender-billed Gull;27;0
+207;LAR CAN;Larus canus; ;Kalalokki;Fiskmås;Mew Gull;27;0
+208;LAR FUS;Larus fuscus; ;Selkälokki;Silltrut;Lesser Black-backed Gull;27;0
+209;LAR ARG;Larus argentatus; ;Harmaalokki;Gråtrut;Herring Gull;27;0
+210;LAR CAC;Larus cachinnans; ;Aroharmaalokki;Kaspisk trut;Caspian Gull;27;0
+211;LAR MIC;Larus michahellis; ;Etelänharmaalokki;Medelhavstrut;Yellow-legged Gull;27;0
+212;LAR GLA;Larus glaucoides; ;Grönlanninlokki;Vitvingad trut;Iceland Gull;27;0
+213;LAR HYP;Larus hyperboreus; ;Isolokki;Vittrut;Glaucous Gull;27;0
+214;LAR MAR;Larus marinus; ;Merilokki;Havstrut;Greater Black-backed Gull;27;0
+215;RHO ROS;Rhodostethia rosea; ;Ruusulokki;Rosenmås;Ross's Gull;27;0
+216;RIS TRI;Rissa tridactyla; ;Pikkukajava;Tretåig mås;Black-legged Kittiwake;27;0
+217;PAG EBU;Pagophila eburnea; ;Jäälokki;Ismås;Ivory Gull;27;0
+218;STE NIL;Sterna nilotica; ;Hietatiira;Sandtärna;Gull-billed Tern;28;0
+219;STE CAS;Sterna caspia; ;Räyskä;Skräntärna;Caspian Tern;28;0
+220;STE SAN;Sterna sandvicensis; ;Riuttatiira;Kentsk tärna;Sandwich Tern;28;0
+221;STE HIR;Sterna hirundo; ;Kalatiira;Fisktärna;Common Tern;28;0
+222;STE AEA;Sterna paradisaea; ;Lapintiira;Silvertärna;Arctic Tern;28;0
+223;STE ALB;Sterna albifrons; ;Pikkutiira;Småtärna;Little Tern;28;0
+224;CHL HYB;Chlidonias hybrida; ;Valkoposkitiira;Skäggtärna;Whiskered Tern;28;0
+225;CHL NIG;Chlidonias niger; ;Mustatiira;Svarttärna;Black Tern;28;0
+226;CHL LEU;Chlidonias leucopterus; ;Valkosiipitiira;Vitvingad tärna;White-winged Tern;28;0
+227;URI AAL;Uria aalge; ;Etelänkiisla;Sillgrissla;Common Guillemot;29;0
+228;URI LOM;Uria lomvia; ;Pohjankiisla;Spetsbergsgrissla;Brünnich's Guillemot;29;0
+229;ALC TOR;Alca torda; ;Ruokki;Tordmule;Razorbill;29;0
+230;CEP GRY;Cepphus grylle; ;Riskilä;Tobisgrissla;Black Guillemot;29;0
+231;ALL ALL;Alle alle; ;Pikkuruokki;Alkekung;Little Auk;29;0
+232;FRA ARC;Fratercula arctica; ;Lunni;Lunnefågel;Atlantic Puffin;29;0
+233;SYR PAR;Syrrhaptes paradoxus; ;Arokyyhky;Stäppflyghöna;Pallas's Sandgrouse;30;0
+234;COL LIV;Columba livia;C;Kalliokyyhky;Klippduva;Rock Dove;31;0
+235;COL OEN;Columba oenas; ;Uuttukyyhky;Skogsduva;Stock Dove;31;0
+236;COL PAL;Columba palumbus; ;Sepelkyyhky;Ringduva;Common Woodpigeon;31;0
+237;STR DEC;Streptopelia decaocto; ;Turkinkyyhky;Turkduva;Eurasian Collared Dove;31;0
+238;STR TUR;Streptopelia turtur; ;Turturikyyhky;Turturduva;European Turtle Dove;31;0
+239;STR ORI;Streptopelia orientalis; ;Idänturturikyyhky;Större turturduva;Oriental Turtle Dove;31;0
+240;CLA GLA;Clamator glandarius;B;Harakkakäki;Skatgök;Great Spotted Cuckoo;32;0
+241;CUC CAN;Cuculus canorus; ;Käki;Gök;Common Cuckoo;32;0
+242;TYT ALB;Tyto alba; ;Tornipöllö;Tornuggla;Barn Owl;33;0
+243;BUB BUB;Bubo bubo; ;Huuhkaja;Berguv;Eurasian Eagle Owl;34;0
+244;BUB SCA;Bubo scandiacus; ;Tunturipöllö;Fjälluggla;Snowy Owl;34;0
+245;SUR ULU;Surnia ulula; ;Hiiripöllö;Hökuggla;Northern Hawk Owl;34;0
+246;GLA PAS;Glaucidium passerinum; ;Varpuspöllö;Sparvuggla;Eurasian Pygmy Owl;34;0
+247;ATH NOC;Athene noctua; ;Minervanpöllö;Minervauggla;Little Owl;34;0
+248;STR ALU;Strix aluco; ;Lehtopöllö;Kattuggla;Tawny Owl;34;0
+249;STR URA;Strix uralensis; ;Viirupöllö;Slaguggla;Ural Owl;34;0
+250;STR NEB;Strix nebulosa; ;Lapinpöllö;Lappuggla;Great Grey Owl;34;0
+251;ASI OTU;Asio otus; ;Sarvipöllö;Hornuggla;Long-eared Owl;34;0
+252;ASI FLA;Asio flammeus; ;Suopöllö;Jorduggla;Short-eared Owl;34;0
+253;AEG FUN;Aegolius funereus; ;Helmipöllö;Pärluggla;Tengmalm's Owl;34;0
+254;CAP EUR;Caprimulgus europaeus; ;Kehrääjä;Nattskärra;European Nightjar;35;0
+255;HIR CAU;Hirundapus caudacutus; ;Piikkipyrstökiitäjä;Taggstjärtseglare;White-throated Needletail Swift;36;0
+256;APU APU;Apus apus;;Tervapääsky;Tornseglare;Common Swift;36;0
+257;APU PAL;Apus pallidus;;Vaaleakiitäjä;Blek tornseglare;Pallid Swift;36;0
+258;APU MEL;Apus melba;;Alppikiitäjä;Alpseglare;Alpine Swift;36;0
+259;APU CAF;Apus caffer; ;Kafferikiitäjä;Kafferseglare;White-rumped Swift;36;0
+260;ALC ATT;Alcedo atthis; ;Kuningaskalastaja;Kungsfiskare;Common Kingfisher;37;0
+261;MER PER;Merops persicus; ;Vihermehiläissyöjä;Grön biätare;Blue-cheeked Bee-eater;38;0
+262;MER API;Merops apiaster; ;Mehiläissyöjä;Biätare;European Bee-eater;38;0
+263;COR GAR;Coracias garrulus; ;Sininärhi;Blåkråka;European Roller;39;0
+264;UPU EPO;Upupa epops; ;Harjalintu;Härfågel;Eurasian Hoopoe;40;0
+265;JYN TOR;Jynx torquilla; ;Käenpiika;Göktyta;Eurasian Wryneck;41;0
+266;PIC CAN;Picus canus; ;Harmaapäätikka;Gråspett;Grey-headed Woodpecker;41;0
+267;PIC VIR;Picus viridis; ;Vihertikka;Gröngöling;European Green Woodpecker;41;0
+268;DRY MAR;Dryocopus martius; ;Palokärki;Spillkråka;Black Woodpecker;41;0
+269;DEN MAJ;Dendrocopos major; ;Käpytikka;Större hackspett;Great Spotted Woodpecker;41;0
+270;DEN LEU;Dendrocopos leucotos; ;Valkoselkätikka;Vitryggig hackspett;White-backed Woodpecker;41;0
+271;DEN MIN;Dendrocopos minor; ;Pikkutikka;Mindre hackspett;Lesser Spotted Woodpecker;41;0
+272;PIC TRI;Picoides tridactylus; ;Pohjantikka;Tretåig hackspett;Three-toed Woodpecker;41;0
+273;MEL CAL;Melanocorypha calandra; ;Arokiuru;Kalanderlärka;Calandra Lark;42;0
+274;MEL BIM;Melanocorypha bimaculata; ;Ylänkökiuru;Asiatisk kalanderlärka;Bimaculated Lark;42;0
+275;MEL LEU;Melanocorypha leucoptera; ;Valkosiipikiuru;Vitvingad lärka;White-winged Lark;42;0
+276;MEL YEL;Melanocorypha yeltoniensis; ;Mustakiuru;Svartlärka;Black Lark;42;0
+277;CAL BRA;Calandrella brachydactyla; ;Lyhytvarvaskiuru;Korttålärka;Greater Short-toed Lark;42;0
+278;CAL ENS;Calandrella rufescens; ;Pikkukiuru;Dvärglärka;Lesser Short-toed Lark;42;0
+279;GAL CRI;Galerida cristata; ;Töyhtökiuru;Tofslärka;Crested Lark;42;0
+280;LUL ARB;Lullula arborea; ;Kangaskiuru;Trädlärka;Wood Lark;42;0
+281;ALA ARV;Alauda arvensis; ;Kiuru;Sånglärka;Eurasian Skylark;42;0
+282;ERE ALP;Eremophila alpestris; ;Tunturikiuru;Berglärka;Horned Lark;42;0
+283;RIP RIP;Riparia riparia; ;Törmäpääsky;Backsvala;Sand Martin;43;0
+284;PTY RUP;Ptyonoprogne rupestris; ;Kalliopääsky;Klippsvala;Eurasian Crag Martin;43;0
+285;HIR RUS;Hirundo rustica; ;Haarapääsky;Ladusvala;Barn Swallow;43;0
+286;HIR DAU;Hirundo daurica; ;Ruostepääsky;Rostgumpsvala;Red-rumped Swallow;43;0
+287;DEL URB;Delichon urbicum; ;Räystäspääsky;Hussvala;Common House Martin;43;0
+288;ANT RIC;Anthus richardi; ;Isokirvinen;Större piplärka;Richard's Pipit;44;0
+289;ANT GOD;Anthus godlewskii; ;Mongoliankirvinen;Mongolpiplärka;Blyth's Pipit;44;0
+290;ANT CAM;Anthus campestris; ;Nummikirvinen;Fältpiplärka;Tawny Pipit;44;0
+291;ANT HOD;Anthus hodgsoni; ;Taigakirvinen;Sibirisk piplärka;Olive-backed Pipit;44;0
+292;ANT TRI;Anthus trivialis; ;Metsäkirvinen;Trädpiplärka;Tree Pipit;44;0
+293;ANT GUS;Anthus gustavi; ;Tundrakirvinen;Tundrapiplärka;Pechora Pipit;44;0
+294;ANT PRA;Anthus pratensis; ;Niittykirvinen;Ängspiplärka;Meadow Pipit;44;0
+295;ANT CER;Anthus cervinus; ;Lapinkirvinen;Rödstrupig piplärka;Red-throated Pipit;44;0
+296;ANT PET;Anthus petrosus; ;Luotokirvinen;Skärpiplärka;Rock Pipit;44;0
+297;MOT FLA;Motacilla flava; ;Keltavästäräkki;Gulärla;Yellow Wagtail;44;0
+298;MOT CIT;Motacilla citreola; ;Sitruunavästäräkki;Citronärla;Citrine Wagtail;44;0
+299;MOT CIN;Motacilla cinerea; ;Virtavästäräkki;Forsärla;Grey Wagtail;44;0
+300;MOT ALB;Motacilla alba; ;Västäräkki;Sädesärla;White Wagtail;44;0
+301;BOM GAR;Bombycilla garrulus; ;Tilhi;Sidensvans;Bohemian Waxwing;45;0
+302;CIN CIN;Cinclus cinclus; ;Koskikara;Strömstare;White-throated Dipper;46;0
+303;TRO TRO;Troglodytes troglodytes; ;Peukaloinen;Gärdsmyg;Winter Wren;47;0
+304;PRU MOD;Prunella modularis; ;Rautiainen;Järnsparv;Dunnock;48;0
+305;PRU MON;Prunella montanella; ;Taigarautiainen;Sibirisk järnsparv;Siberian Accentor;48;0
+306;PRU ATR;Prunella atrogularis; ;Mustakurkkurautiainen;Svartstrupig järnsparv;Black-throated Accentor;48;0
+307;PRU COL;Prunella collaris; ;Alppirautiainen;Alpjärnsparv;Alpine Accentor;48;0
+308;CER GAL;Cercotrichas galactotes; ;Ruostepyrstö;Trädnäktergal;Rufous-tailed Scrub Robin;49;0
+309;ERI RUB;Erithacus rubecula; ;Punarinta;Rödhake;European Robin;49;0
+310;LUS LUS;Luscinia luscinia; ;Satakieli;Näktergal;Thrush Nightingale;49;0
+311;LUS MEG;Luscinia megarhynchos; ;Etelänsatakieli;Sydnäktergal;Common Nightingale;49;0
+312;LUS CAL;Luscinia calliope; ;Rubiinisatakieli;Rubinnäktergal;Siberian Rubythroat;49;0
+313;LUS SVE;Luscinia svecica; ;Sinirinta;Blåhake;Bluethroat;49;0
+314;TAR CYA;Tarsiger cyanurus; ;Sinipyrstö;Blåstjärt;Red-flanked Bluetail;49;0
+315;PHO OCH;Phoenicurus ochruros; ;Mustaleppälintu;Svart rödstjärt;Black Redstart;49;0
+316;PHO PHO;Phoenicurus phoenicurus; ;Leppälintu;Rödstjärt;Common Redstart;49;0
+317;SAX RUB;Saxicola rubetra; ;Pensastasku;Buskskvätta;Whinchat;49;0
+318;SAX TOR;Saxicola torquatus; ;Mustapäätasku;Svarthakad buskskvätta;Common Stonechat;49;0
+319;OEN ISA;Oenanthe isabellina; ;Arotasku;Isabellastenskvätta;Isabelline Wheatear;49;0
+320;OEN OEN;Oenanthe oenanthe; ;Kivitasku;Stenskvätta;Northern Wheatear;49;0
+321;OEN PLE;Oenanthe pleschanka; ;Nunnatasku;Nunnestenskvätta;Pied Wheatear;49;0
+322;OEN HIS;Oenanthe hispanica; ;Rusotasku;Medelhavsstenskvätta;Black-eared Wheatear;49;0
+323;OEN DES;Oenanthe deserti; ;Aavikkotasku;Ökenstenskvätta;Desert Wheatear;49;0
+324;MON SAX;Monticola saxatilis; ;Kivikkorastas;Stentrast;Rufous-tailed Rock Thrush;49;0
+325;MON SOL;Monticola solitarius; ;Sinirastas;Blåtrast;Blue Rock Thrush;49;0
+326;ZOO DAU;Zoothera dauma; ;Kirjorastas;Guldtrast;White's Thrush;49;0
+327;CAT UST;Catharus ustulatus; ;Korpirastas;Beigekindad skogstrast;Swainson's Thrush;49;0
+328;TUR TOR;Turdus torquatus; ;Sepelrastas;Ringtrast;Ring Ouzel;49;0
+329;TUR MER;Turdus merula; ;Mustarastas;Koltrast;Common Blackbird;49;0
+330;TUR OBS;Turdus obscurus; ;Harmaakurkkurastas;Gråhalsad trast;Eyebrowed Thrush;49;0
+331;TUR NAU;Turdus naumanni; ;Ruosterastas;Bruntrast;Dusky Thrush;49;0
+332;TUR RUF;Turdus ruficollis; ;Mustakaularastas;Taigatrast;Dark-throated Thrush;49;0
+333;TUR PIL;Turdus pilaris; ;Räkättirastas;Björktrast;Fieldfare;49;0
+334;TUR PHI;Turdus philomelos; ;Laulurastas;Taltrast;Song Thrush;49;0
+335;TUR ILI;Turdus iliacus; ;Punakylkirastas;Rödvingetrast;Redwing;49;0
+336;TUR VIS;Turdus viscivorus; ;Kulorastas;Dubbeltrast;Mistle Thrush;49;0
+337;LOC LAN;Locustella lanceolata; ;Viirusirkkalintu;Träsksångare;Lanceolated Warbler;50;0
+338;LOC NAE;Locustella naevia; ;Pensassirkkalintu;Gräshoppsångare;Common Grasshopper Warbler;50;0
+339;LOC FLU;Locustella fluviatilis; ;Viitasirkkalintu;Flodsångare;River Warbler;50;0
+340;LOC LUS;Locustella luscinioides; ;Ruokosirkkalintu;Vassångare;Savi's Warbler;50;0
+341;ACR AED;Acrocephalus aedon; ;Paksunokkakerttunen;Tjocknäbbad sångare;Thick-billed Warbler;50;0
+342;ACR OLA;Acrocephalus paludicola; ;Sarakerttunen;Vattensångare;Aquatic Warbler;50;0
+343;ACR SCH;Acrocephalus schoenobaenus; ;Ruokokerttunen;Sävsångare;Sedge Warbler;50;0
+344;ACR SCI;Acrocephalus scirpaceus; ;Rytikerttunen;Rörsångare;European Reed Warbler;50;0
+345;ACR RIS;Acrocephalus palustris; ;Luhtakerttunen;Kärrsångare;Marsh Warbler;50;0
+346;ACR DUM;Acrocephalus dumetorum; ;Viitakerttunen;Busksångare;Blyth's Reed Warbler;50;0
+347;ACR AGR;Acrocephalus agricola; ;Kenttäkerttunen;Fältsångare;Paddyfield Warbler;50;0
+348;ACR ARU;Acrocephalus arundinaceus; ;Rastaskerttunen;Trastsångare;Great Reed Warbler;50;0
+349;HIP PAL;Hippolais pallida; ;Vaaleakultarinta;Eksångare;Eastern Olivaceous Warbler;50;0
+350;HIP CAL;Hippolais caligata; ;Pikkukultarinta;Stäppsångare;Booted Warbler;50;0
+351;HIP RAM;Hippolais rama;#;Aavikkokultarinta;Saxaulsångare?;Sykes's Warbler;50;0
+352;HIP ICT;Hippolais icterina; ;Kultarinta;Härmsångare;Icterine Warbler;50;0
+353;SYL ATR;Sylvia atricapilla; ;Mustapääkerttu;Svarthätta;Blackcap;50;0
+354;SYL BOR;Sylvia borin; ;Lehtokerttu;Trädgårdssångare;Garden Warbler;50;0
+355;SYL NIS;Sylvia nisoria; ;Kirjokerttu;Höksångare;Barred Warbler;50;0
+356;SYL CUR;Sylvia curruca; ;Hernekerttu;Ärtsångare;Lesser Whitethroat;50;0
+357;SYL COM;Sylvia communis; ;Pensaskerttu;Törnsångare;Common Whitethroat;50;0
+358;SYL NAN;Sylvia nana; ;Kääpiökerttu;Ökensångare;Asian Desert Warbler;50;0
+359;SYL UND;Sylvia undata; ;Ruskokerttu;Provencesångare;Dartford Warbler;50;0
+360;SYL CAN;Sylvia cantillans; ;Rusorintakerttu;Rödstrupig sångare;Subalpine Warbler;50;0
+361;SYL MEL;Sylvia melanocephala; ;Samettipääkerttu;Sammetshätta;Sardinian Warbler;50;0
+362;SYL RUE;Sylvia rueppelli; ;Mustakurkkukerttu;Svarthakad sångare;Rüppell's Warbler;50;0
+363;PHY COR;Phylloscopus coronatus;;Amurinuunilintu;Östlig kronsångare;Eastern Crowned Warbler;50;0
+364;PHY DES;Phylloscopus trochiloides; ;Idänuunilintu;Lundsångare;Greenish Warbler;50;0
+365;PHY BOR;Phylloscopus borealis; ;Lapinuunilintu;Nordsångare;Arctic Warbler;50;0
+366;PHY PRO;Phylloscopus proregulus; ;Hippiäisuunilintu;Kungsfågelsångare;Pallas's Leaf Warbler;50;0
+367;PHY INO;Phylloscopus inornatus; ;Taigauunilintu;Taigasångare;Yellow-browed Warbler;50;0
+368;PHY HUM;Phylloscopus humei; ;Kashmirinuunilintu;Bergtaigasångare;Hume's Leaf Warbler;50;0
+369;PHY SCH;Phylloscopus schwarzi; ;Siperianuunilintu;Videsångare;Radde's Warbler;50;0
+370;PHY FUS;Phylloscopus fuscatus; ;Ruskouunilintu;Brunsångare;Dusky Warbler;50;0
+371;PHY BON;Phylloscopus bonelli; ;Vuoriuunilintu;Bergsångare;Bonelli's Warbler;50;0
+372;PHY ORI;Phylloscopus orientalis; ;Balkaninuunilintu;Balkansångare;Balkan Warbler;50;0
+373;PHY SIB;Phylloscopus sibilatrix; ;Sirittäjä;Grönsångare;Wood Warbler;50;0
+374;PHY COL;Phylloscopus collybita; ;Tiltaltti;Gransångare;Common Chiffchaff;50;0
+375;PHY LUS;Phylloscopus trochilus; ;Pajulintu;Lövsångare;Willow Warbler;50;0
+376;REG REG;Regulus regulus; ;Hippiäinen;Kungsfågel;Goldcrest;50;0
+377;REG IGN;Regulus ignicapilla; ;Tulipäähippiäinen;Brandkronad kungsfågel;Firecrest;50;0
+378;MUS STR;Muscicapa striata; ;Harmaasieppo;Grå flugsnappare;Spotted Flycatcher;51;0
+379;FIC PAR;Ficedula parva; ;Pikkusieppo;Mindre flugsnappare;Red-breasted Flycatcher;51;0
+380;FIC ALB;Ficedula albicollis; ;Sepelsieppo;Halsbandsflugsnappare;Collared Flycatcher;51;0
+381;FIC HYP;Ficedula hypoleuca; ;Kirjosieppo;Svartvit flugsnappare;Pied Flycatcher;51;0
+382;PAN BIA;Panurus biarmicus; ;Viiksitimali;Skäggmes;Bearded Reedling;52;0
+383;AEG CAU;Aegithalos caudatus; ;Pyrstötiainen;Stjärtmes;Long-tailed Tit;53;0
+384;PAR PAL;Parus palustris; ;Viitatiainen;Entita;Marsh Tit;54;0
+385;PAR MON;Parus montanus; ;Hömötiainen;Talltita;Willow Tit;54;0
+386;PAR CIN;Parus cinctus; ;Lapintiainen;Lappmes;Siberian Tit;54;0
+387;PAR CRI;Parus cristatus; ;Töyhtötiainen;Tofsmes;Crested Tit;54;0
+388;PAR ATE;Parus ater; ;Kuusitiainen;Svartmes;Coal Tit;54;0
+389;PAR CAE;Parus caeruleus; ;Sinitiainen;Blåmes;Blue Tit;54;0
+390;PAR CYA;Parus cyanus; ;Valkopäätiainen;Azurmes;Azure Tit;54;0
+391;PAR MAJ;Parus major; ;Talitiainen;Talgoxe;Great Tit;54;0
+392;SIT EUR;Sitta europaea; ;Pähkinänakkeli;Nötväcka;Eurasian Nuthatch;55;0
+393;CER FAM;Certhia familiaris; ;Puukiipijä;Trädkrypare;Eurasian Treecreeper;56;0
+394;REM PEN;Remiz pendulinus; ;Pussitiainen;Pungmes;Eurasian Penduline Tit;57;0
+395;ORI ORI;Oriolus oriolus; ;Kuhankeittäjä;Sommargylling;Eurasian Golden Oriole;58;0
+396;LAN ISA;Lanius isabellinus; ;Punapyrstölepinkäinen;Isabellatörnskata;Isabelline Shrike;59;0
+397;LAN COL;Lanius collurio; ;Pikkulepinkäinen;Törnskata;Red-backed Shrike;59;0
+398;LAN MIN;Lanius minor; ;Mustaotsalepinkäinen;Svartpannad törnskata;Lesser Grey Shrike;59;0
+399;LAN EXC;Lanius excubitor; ;Isolepinkäinen;Varfågel;Great Grey Shrike;59;0
+400;LAN MER;Lanius meridionalis; ;Etelänisolepinkäinen;Ökenvarfågel;Southern Grey Shrike;59;0
+401;LAN SEN;Lanius senator; ;Punapäälepinkäinen;Rödhuvad törnskata;Woodchat Shrike;59;0
+402;LAN NUB;Lanius nubicus; ;Valko-otsalepinkäinen;Masktörnskata;Masked Shrike;59;0
+403;GAR GLA;Garrulus glandarius; ;Närhi;Nötskrika;Eurasian Jay;60;0
+404;PER INF;Perisoreus infaustus; ;Kuukkeli;Lavskrika;Siberian Jay;60;0
+405;PIC PIC;Pica pica; ;Harakka;Skata;Common Magpie;60;0
+406;NUC CAR;Nucifraga caryocatactes; ;Pähkinähakki;Nötkråka;Spotted Nutcracker;60;0
+407;COR MON;Corvus monedula; ;Naakka;Kaja;Western Jackdaw;60;0
+408;COR DAU;Corvus dauuricus;B;Idännaakka;Klippkaja;Daurian Jackdaw;60;0
+409;COR FRU;Corvus frugilegus; ;Mustavaris;Råka;Rook;60;0
+410;COR NIX;Corvus corone cornix; ;Varis;Kråka;Hooded Crow;60;0
+411;COR RAX;Corvus corax; ;Korppi;Korp;Common Raven;60;0
+412;STU VUL;Sturnus vulgaris; ;Kottarainen;Stare;Common Starling;61;0
+413;STU ROS;Sturnus roseus; ;Punakottarainen;Rosenstare;Rosy Starling;61;0
+414;PAS DOM;Passer domesticus; ;Varpunen;Gråsparv;House Sparrow;62;0
+415;PAS HIS;Passer hispaniolensis; ;Pensasvarpunen;Spansk sparv;Spanish Sparrow;62;0
+416;PAS MON;Passer montanus; ;Pikkuvarpunen;Pilfink;Eurasian Tree Sparrow;62;0
+417;FRI COE;Fringilla coelebs; ;Peippo;Bofink;Common Chaffinch;63;0
+418;FRI MON;Fringilla montifringilla; ;Järripeippo;Bergfink;Brambling;63;0
+419;SER SER;Serinus serinus; ;Keltahemppo;Gulhämpling;European Serin;63;0
+420;CAR CHL;Carduelis chloris; ;Viherpeippo;Grönfink;European Greenfinch;63;0
+421;CAR CAR;Carduelis carduelis; ;Tikli;Steglits;European Goldfinch;63;0
+422;CAR SPI;Carduelis spinus; ;Vihervarpunen;Grönsiska;European Siskin;63;0
+423;CAR CAN;Carduelis cannabina; ;Hemppo;Hämpling;Common Linnet;63;0
+424;CAR RIS;Carduelis flavirostris; ;Vuorihemppo;Vinterhämpling;Twite;63;0
+425;CAR MEA;Carduelis flammea; ;Urpiainen;Gråsiska;Common Redpoll;63;0
+426;CAR HOR;Carduelis hornemanni; ;Tundraurpiainen;Snösiska;Arctic Redpoll;63;0
+427;LOX LEU;Loxia leucoptera; ;Kirjosiipikäpylintu;Bändelkorsnäbb;Two-barred Crossbill;63;0
+428;LOX CUR;Loxia curvirostra; ;Pikkukäpylintu;Mindre korsnäbb;Common Crossbill;63;0
+429;LOX PYT;Loxia pytyopsittacus; ;Isokäpylintu;Större korsnäbb;Parrot Crossbill;63;0
+430;BUC GIT;Bucanetes githagineus;;Aavikkotulkku;Ökentrumpetare;Trumpeter Finch;63;0
+431;CAR ERY;Carpodacus erythrinus; ;Punavarpunen;Rosenfink;Common Rosefinch;63;0
+432;PIN ENU;Pinicola enucleator; ;Taviokuurna;Tallbit;Pine Grosbeak;63;0
+433;PYR PYR;Pyrrhula pyrrhula; ;Punatulkku;Domherre;Eurasian Bullfinch;63;0
+434;COC COC;Coccothraustes coccothraustes; ;Nokkavarpunen;Stenknäck;Hawfinch;63;0
+435;DEN STR;Dendroica striata;;Viirukerttuli;Vitkindad skogssångare;Blackpoll Warbler;64;0
+436;ZON ALB;Zonotrichia albicollis; ;Valkokurkkusirkku;Vitstrupig sparv;White-throated Sparrow;65;0
+437;CAL LAP;Calcarius lapponicus; ;Lapinsirkku;Lappsparv;Lapland Longspur;65;0
+438;PLE NIV;Plectrophenax nivalis; ;Pulmunen;Snösparv;Snow Bunting;65;0
+439;EMB SPO;Emberiza spodocephala; ;Harmaapääsirkku;Gråhuvad sparv;Black-faced Bunting;65;0
+440;EMB LEU;Emberiza leucocephalos; ;Mäntysirkku;Tallsparv;Pine Bunting;65;0
+441;EMB CIT;Emberiza citrinella; ;Keltasirkku;Gulsparv;Yellowhammer;65;0
+442;EMB BUC;Emberiza buchanani;#;Kivikkosirkku;Bergortolansparv;Grey-necked Bunting;65;0
+443;EMB HOR;Emberiza hortulana; ;Peltosirkku;Ortolansparv;Ortolan Bunting;65;0
+444;EMB CAE;Emberiza caesia; ;Ruostekurkkusirkku;Rostsparv;Cretzschmar's Bunting;65;0
+445;EMB RUS;Emberiza rustica; ;Pohjansirkku;Videsparv;Rustic Bunting;65;0
+446;EMB PUS;Emberiza pusilla; ;Pikkusirkku;Dvärgsparv;Little Bunting;65;0
+447;EMB RUT;Emberiza rutila;;Kastanjasirkku;Rödbrun sparv;Chestnut Bunting;65;0
+448;EMB AUR;Emberiza aureola; ;Kultasirkku;Gyllensparv;Yellow-breasted Bunting;65;0
+449;EMB SCH;Emberiza schoeniclus; ;Pajusirkku;Sävsparv;Common Reed Bunting;65;0
+450;EMB MEL;Emberiza melanocephala; ;Mustapääsirkku;Svarthuvad sparv;Black-headed Bunting;65;0
+451;EMB CAL;Emberiza calandra; ;Harmaasirkku;Kornsparv;Corn Bunting;65;0
