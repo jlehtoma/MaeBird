@@ -83,6 +83,8 @@ class MaeBird(QMainWindow, Ui_MainWindow):
         self.deleteButton.clicked.connect(
                     lambda: self.handle_observation(ObservationDialog.DELETE))
     
+    # foo test
+    
     def closeEvent(self, event):
         settings = QSettings()
         if self.saveSettings:
