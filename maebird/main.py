@@ -43,6 +43,8 @@ class MaeBird(QMainWindow, Ui_MainWindow):
         
         self.setWindowTitle(__APPNAME__ + ' ' + __VERSION__)
         
+        
+        # TODO: loading settings should be moved to a separate method
         settings = QSettings()
         
         # Set up logging
@@ -50,11 +52,15 @@ class MaeBird(QMainWindow, Ui_MainWindow):
         if loggingdir == "":
             loggingdir = __USER_DATA_DIR__
         self.logger = Logger('root', loggingdir=loggingdir)
-        self.logger.debugging = int(settings.value("Settings/debugging"))
-        self.logger.debug('Logging initialized')
+        if settings.value("Settings/debugging"):
+            self.logger.debugging = int(settings.value("Settings/debugging"))
+            self.logger.debug('Logging initialized')
         
         # Try to load previous session
-        self.saveSettings = int(settings.value("Settings/saveSettings"))
+        if settings.value("Settings/saveSettings"):
+            self.saveSettings = int(settings.value("Settings/saveSettings"))
+        else:
+            self.saveSettings = 1
                       
         if self.saveSettings:
             QTimer.singleShot(0, self.load_initial_data)
@@ -76,6 +82,8 @@ class MaeBird(QMainWindow, Ui_MainWindow):
                     lambda: self.handle_observation(ObservationDialog.ADD))
         self.deleteButton.clicked.connect(
                     lambda: self.handle_observation(ObservationDialog.DELETE))
+    
+    # foo test
     
     def closeEvent(self, event):
         settings = QSettings()
