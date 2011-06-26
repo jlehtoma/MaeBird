@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './maebird/gui/mainwindow.ui'
+# Form implementation generated from reading ui file './gui/mainwindow.ui'
 #
-# Created: Wed Dec 15 22:46:13 2010
-#      by: PySide uic UI code generator
+# Created: Sun Jun 26 21:46:33 2011
+#      by: pyside-uic 0.2.10 running on PySide 1.0.4
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -42,6 +42,7 @@ class Ui_MainWindow(object):
         self.searchPrevButton.setObjectName("searchPrevButton")
         self.horizontalLayout.addWidget(self.searchPrevButton)
         self.search = QtGui.QLineEdit(self.centralwidget)
+        self.search.setText("")
         self.search.setObjectName("search")
         self.horizontalLayout.addWidget(self.search)
         self.searchNextButton = QtGui.QToolButton(self.centralwidget)
@@ -53,6 +54,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.searchNextButton)
         self.deleteButton = QtGui.QToolButton(self.centralwidget)
         self.deleteButton.setEnabled(False)
+        self.deleteButton.setText("")
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap(":/icons/image50.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.deleteButton.setIcon(icon2)
@@ -60,6 +62,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.deleteButton)
         self.addButton = QtGui.QToolButton(self.centralwidget)
         self.addButton.setEnabled(False)
+        self.addButton.setText("")
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap(":/icons/image32.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.addButton.setIcon(icon3)

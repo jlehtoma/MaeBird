@@ -87,31 +87,46 @@ class ModelDialog(QDialog, Ui_modelDialog):
     
 class ObservationDialog(QDialog, Ui_observationDialog):
     
+    ''' A dialog delegate that handles the displaying of the observation model
+    in a suitable GUI dialog.
+    '''
+    
     FIRST, PREV, NEXT, LAST, CURRENT = range(5)
     ADD, DELETE, SHOW = range(3)
     
     def __init__(self, model, index, parent=None):
         super(ObservationDialog, self).__init__(parent)
         self.setupUi(self)
-        #self.dateTimeEdit.setDateTime(QDateTime.currentDateTime())
+#        self.dateTimeEdit.setDateTime(QDateTime.currentDateTime())
         
+        # An observation model is passed to the constructor as a parameter
         self.model = model
-        self.data_model = model.data_model
+        
+        # Build a QCompleter that is based on a species model's species name.
+        # This way user can start typing the name in a line edit and the 
+        # completion will suggest suitable species names based on the model
         
         # TODO: language for the species name completion needs to be handled
+        # TODO: both completers have model column indexes hard coded in, thus
+        # they will break if the model is modified
         sppCompleter = QCompleter(self)
-        sppCompleter.setModel(self.data_model)
+        sppCompleter.setModel(self.model.data_model)
         sppCompleter.setCompletionColumn(4)
         sppCompleter.setCompletionMode(QCompleter.InlineCompletion)
         sppCompleter.setCaseSensitivity(Qt.CaseInsensitive)
         self.sppLineEdit.setCompleter(sppCompleter)
         
+        # Build a QCompleter that is based on a species model's abbreviation.
+        # This way user can start typing the abbreviation in a line edit and the 
+        # completion will suggest suitable species names based on the model
         abbrCompleter = QCompleter(self)
-        abbrCompleter.setModel(self.data_model)
+        abbrCompleter.setModel(self.model.data_model)
         abbrCompleter.setCompletionColumn(1)
         abbrCompleter.setCompletionMode(QCompleter.InlineCompletion)
         self.abbrLineEdit.setCompleter(abbrCompleter)
         
+        # The underlying (observation) model is automatically updated through 
+        # a QDataWidgetMapper
         self.mapper = QDataWidgetMapper(self)
         self.mapper.setSubmitPolicy(QDataWidgetMapper.ManualSubmit)
         self.mapper.setModel(model)
@@ -169,13 +184,21 @@ class ObservationDialog(QDialog, Ui_observationDialog):
         QDialog.accept(self)
     
     def saveRecord(self, where):
+        ''' Method saves the current row in the self.mapper and moves the 
+        data model cursor to a given location.
+        '''
+        
         
         if self.sppLineEdit.text() == "":
             QMessageBox.warning(self, "Warning",
                 "You must enter a species name!", QMessageBox.Ok)
             return
+        
+        # Get the current index and submit changes to the underlying model
         row = self.mapper.currentIndex()
         self.mapper.submit()
+        
+        # Move the data model cursor to a given location
         if where == ObservationDialog.FIRST:
             row = 0
         elif where == ObservationDialog.PREV:
@@ -191,16 +214,20 @@ class ObservationDialog(QDialog, Ui_observationDialog):
     @Slot()    
     def on_sppLineEdit_editingFinished(self):
         '''Called when editing of the sppLineEdit stops, etc. species name input
-        is complete. Species name will be searched from the model and corresponding
-        abbreviation string and ID number will be set.'''
-            
-        row = self.mapper.currentIndex()
-        item = self.sppLineEdit.text()
+        is complete. Species name will be searched from the model and 
+        corresponding abbreviation string and ID number will be set.'''
         
-        match =  self.model.match(self.model.index(0, 2),
-                                       Qt.DisplayRole,
-                                       item,
-                                       hits=1,
-                                       flags=Qt.MatchExactly)
-        if match:
-            print match
+        item = self.sppLineEdit.text()
+
+        # Match the user entered name to an abbreviation in the species model        
+        matches =  self.model.data_model.match(self.model.data_model.index(0, 4),
+                                             Qt.DisplayRole,
+                                             item,
+                                             hits=1,
+                                             flags=Qt.MatchExactly)
+        if matches:
+            # There should be only one match
+            match_row = matches[0].row()
+            abbreviation = self.model.data_model.index(match_row, 
+                                            self.model.data_model.ABBR).data()
+            self.abbrLineEdit.setText(abbreviation)

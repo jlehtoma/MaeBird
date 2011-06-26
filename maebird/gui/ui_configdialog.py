@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './maebird/gui/configdialog.ui'
+# Form implementation generated from reading ui file './gui/configdialog.ui'
 #
-# Created: Sun Feb 27 20:46:05 2011
-#      by: pyside-uic 0.2.7 running on PySide 1.0.0~rc1
+# Created: Sun Jun 26 21:46:33 2011
+#      by: pyside-uic 0.2.10 running on PySide 1.0.4
 #
 # WARNING! All changes made in this file will be lost!
 

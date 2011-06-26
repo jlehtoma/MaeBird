@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './maebird/gui/modeldialog.ui'
+# Form implementation generated from reading ui file './gui/modeldialog.ui'
 #
-# Created: Thu Nov 11 20:52:27 2010
-#      by: PySide uic UI code generator
+# Created: Sun Jun 26 21:46:33 2011
+#      by: pyside-uic 0.2.10 running on PySide 1.0.4
 #
 # WARNING! All changes made in this file will be lost!
 

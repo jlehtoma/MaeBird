@@ -17,7 +17,7 @@ from config import (__APPNAME__, __DB__, __ORG__, __ORGDOMAIN__,
                     __USER_DATA_DIR__,  __VERSION__)
 from gui.dialogs import (ConfigDialog, ModelDialog, ObservationDialog)
 from gui.ui_mainwindow import Ui_MainWindow
-from maebird.mblogging import Logger
+from mblogging import Logger
 
 from models import ModelFactory
 
@@ -82,9 +82,7 @@ class MaeBird(QMainWindow, Ui_MainWindow):
                     lambda: self.handle_observation(ObservationDialog.ADD))
         self.deleteButton.clicked.connect(
                     lambda: self.handle_observation(ObservationDialog.DELETE))
-    
-    # foo test
-    
+        
     def closeEvent(self, event):
         settings = QSettings()
         if self.saveSettings:
@@ -206,7 +204,7 @@ class MaeBird(QMainWindow, Ui_MainWindow):
         
         model = self.tableView.model()
         obsdlg = ObservationDialog(model,
-                                   self.tableView.currentIndex())
+                                   self.tableView.currentIndex(), parent=self)
         
         if operation == ObservationDialog.ADD:
             obsdlg.addRecord()

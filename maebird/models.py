@@ -66,6 +66,7 @@ class FamilyModel(QSqlRelationalTableModel):
 
 class ObservationsModel(QSqlRelationalTableModel):
     name = 'observations'
+    # Define column IDs
     ID = 0
     SPECIES = 1
     COUNT = 2
@@ -77,16 +78,22 @@ class ObservationsModel(QSqlRelationalTableModel):
         super(ObservationsModel, self).__init__(parent)
         self.setSort(ObservationsModel.ID, Qt.AscendingOrder)
         self.setTable(ObservationsModel.name)
-        self.setRelation(ObservationsModel.SPECIES, QSqlRelation('species', 'ID', 'NAME_FIN'))
+        self.setRelation(ObservationsModel.SPECIES, QSqlRelation('species', 
+                                                                 'ID', 
+                                                                 'NAME_FIN'))
         self.setHeaderData(ObservationsModel.ID, Qt.Horizontal, "Id")
         self.setHeaderData(ObservationsModel.SPECIES, Qt.Horizontal, "Species")
         self.setHeaderData(ObservationsModel.COUNT, Qt.Horizontal, "Count")
         self.setHeaderData(ObservationsModel.TIME, Qt.Horizontal, "Time")
-        self.setHeaderData(ObservationsModel.LOCATION, Qt.Horizontal, "Location")
+        self.setHeaderData(ObservationsModel.LOCATION, Qt.Horizontal, 
+                           "Location")
         self.setHeaderData(ObservationsModel.NOTES, Qt.Horizontal, "Notes")
         self.select()
         
         self.editable = True
+        # Observation model has an associated data model that defines what the
+        # observation actually are. For now, observation model only describes 
+        # species defined in SpeciesModel
         self.data_model = SpeciesModel()
     
 class OrderModel(QSqlRelationalTableModel):
