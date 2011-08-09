@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file './gui/mainwindow.ui'
 #
-# Created: Sun Jun 26 21:46:33 2011
+# Created: Tue Aug  9 22:00:24 2011
 #      by: pyside-uic 0.2.10 running on PySide 1.0.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -77,14 +77,11 @@ class Ui_MainWindow(object):
         self.verticalLayout.addLayout(self.horizontalLayout)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 640, 25))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 640, 29))
         self.menubar.setObjectName("menubar")
         self.menuHelp = QtGui.QMenu(self.menubar)
         self.menuHelp.setObjectName("menuHelp")
         MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtGui.QStatusBar(MainWindow)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
         self.actionAbout = QtGui.QAction(MainWindow)
         self.actionAbout.setObjectName("actionAbout")
         self.actionProperties = QtGui.QAction(MainWindow)

@@ -22,6 +22,7 @@ def create_observations():
     query.exec_("""CREATE TABLE observations (
                 ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE NOT NULL,
                 SPECIES INTEGER NOT NULL,
+                ABBR INTEGER NOT NULL,
                 COUNT INTEGER,
                 TIME DATETIME NOT NULL,
                 LOCATION VARCHAR(80) NOT NULL,
@@ -31,10 +32,11 @@ def create_observations():
 
 def populate_observations(data):
 
-    query.prepare("INSERT INTO observations (SPECIES, COUNT, TIME, "
-                  "LOCATION, NOTES) VALUES (?, ?, ?, ?, ?)")
-    for species, count, time, location, notes in data:
+    query.prepare("INSERT INTO observations (SPECIES, ABBR, COUNT, TIME, "
+                  "LOCATION, NOTES) VALUES (?, ?, ?, ?, ?, ?)")
+    for species, abbr, count, time, location, notes in data:
         query.addBindValue(species)
+        query.addBindValue(abbr)
         query.addBindValue(count) # QDateTime
         query.addBindValue(time)   # QDateTime
         query.addBindValue(location)
@@ -42,13 +44,15 @@ def populate_observations(data):
         query.exec_()
 
 DATETIME_FORMAT = "dd.MM.yyyy hh:mm"
-data = [[13,
+data = [[10,
+         10,
          5, 
          QDateTime.currentDateTime(),
          "Herttoniemi",
          "Hieno!"],
          [4,
-          10,
+          4,
+          100,
           QDateTime.currentDateTime(),
           "62.12414 38.214124",
           "Ei niin hieno"]

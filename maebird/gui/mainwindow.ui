@@ -134,7 +134,7 @@
      <x>0</x>
      <y>0</y>
      <width>640</width>
-     <height>25</height>
+     <height>29</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuHelp">
@@ -148,7 +148,6 @@
    </widget>
    <addaction name="menuHelp"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <action name="actionAbout">
    <property name="text">
     <string>&amp;About</string>

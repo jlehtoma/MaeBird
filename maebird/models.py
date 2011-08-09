@@ -69,10 +69,11 @@ class ObservationsModel(QSqlRelationalTableModel):
     # Define column IDs
     ID = 0
     SPECIES = 1
-    COUNT = 2
-    TIME = 3
-    LOCATION = 4
-    NOTES = 5
+    ABBR = 2
+    COUNT = 3
+    TIME = 4
+    LOCATION = 5
+    NOTES = 6
     
     def __init__(self, parent=None): 
         super(ObservationsModel, self).__init__(parent)
@@ -81,8 +82,12 @@ class ObservationsModel(QSqlRelationalTableModel):
         self.setRelation(ObservationsModel.SPECIES, QSqlRelation('species', 
                                                                  'ID', 
                                                                  'NAME_FIN'))
+        self.setRelation(ObservationsModel.ABBR, QSqlRelation('species', 
+                                                                 'ID', 
+                                                                 'ABBR'))
         self.setHeaderData(ObservationsModel.ID, Qt.Horizontal, "Id")
         self.setHeaderData(ObservationsModel.SPECIES, Qt.Horizontal, "Species")
+        self.setHeaderData(ObservationsModel.ABBR, Qt.Horizontal, "Abbreviation")
         self.setHeaderData(ObservationsModel.COUNT, Qt.Horizontal, "Count")
         self.setHeaderData(ObservationsModel.TIME, Qt.Horizontal, "Time")
         self.setHeaderData(ObservationsModel.LOCATION, Qt.Horizontal, 
@@ -131,13 +136,13 @@ class SpeciesModel(QSqlRelationalTableModel):
     NAME_SWE = 5
     NAME_ENG = 6
     FAMILY = 7
-    ELIS = 8
     
     def __init__(self, parent=None):
         super(SpeciesModel, self).__init__(parent)
         self.setSort(SpeciesModel.ID, Qt.AscendingOrder)
         self.setTable(SpeciesModel.name)
-        self.setRelation(SpeciesModel.FAMILY, QSqlRelation('family', 'ID', 'NAME_FIN'))
+        self.setRelation(SpeciesModel.FAMILY, QSqlRelation('family', 'ID', 
+                                                           'NAME_FIN'))
         self.setHeaderData(SpeciesModel.ID, Qt.Horizontal, "Id")
         self.setHeaderData(SpeciesModel.ABBR, Qt.Horizontal, "Abreviation")
         self.setHeaderData(SpeciesModel.NAME_SCI, Qt.Horizontal, "Scientific name")
@@ -146,7 +151,6 @@ class SpeciesModel(QSqlRelationalTableModel):
         self.setHeaderData(SpeciesModel.NAME_SWE, Qt.Horizontal, "Swedish name")
         self.setHeaderData(SpeciesModel.NAME_ENG, Qt.Horizontal, "English name")
         self.setHeaderData(SpeciesModel.FAMILY, Qt.Horizontal, "Family")
-        self.setHeaderData(SpeciesModel.ELIS, Qt.Horizontal, "Seen")
         self.select()
         
         self.editable = False
@@ -154,7 +158,7 @@ class SpeciesModel(QSqlRelationalTableModel):
         self.currentrow = None
         
         # Initially sorted by the primary key
-        self.__sorted = [Qt.AscendingOrder, -1, -1, -1, -1, -1, -1, -1, -1]
+        self.__sorted = [Qt.AscendingOrder, -1, -1, -1, -1, -1, -1, -1]
     
     def get_data(self, index, language):
         if language.lower() == 'eng':

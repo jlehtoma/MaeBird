@@ -11,10 +11,13 @@ from gui.ui_modeldialog import Ui_modelDialog
 from gui.ui_infodialog import Ui_infoDialog
 from gui.ui_observations import Ui_observationDialog
 
+from mblogging import Logger
+
 class ConfigDialog(QDialog, Ui_configDialog):
     
     def __init__(self, saveload, parent=None):
         super(ConfigDialog, self).__init__(parent)
+        
         self.setupUi(self)
         self.saveloadCheckBox.setChecked(saveload)
         
@@ -26,6 +29,7 @@ class ConfigDialog(QDialog, Ui_configDialog):
         
         # Check whether debugging is used
         self.debuggingCheckBox.setChecked(parent.logger.debugging)
+        self.logger.info('Debug set to: %s' % str(parent.logger.debugging))
         
         # Set the first tab sheet visible
         self.tabWidget.setCurrentIndex(0)
@@ -96,6 +100,10 @@ class ObservationDialog(QDialog, Ui_observationDialog):
     
     def __init__(self, model, index, parent=None):
         super(ObservationDialog, self).__init__(parent)
+        
+        self.logger = Logger('root.observationDialog')
+        self.logger.debug('Debug set to: %s' % str(parent.logger.debugging))
+        
         self.setupUi(self)
 #        self.dateTimeEdit.setDateTime(QDateTime.currentDateTime())
         
@@ -130,7 +138,11 @@ class ObservationDialog(QDialog, Ui_observationDialog):
         self.mapper = QDataWidgetMapper(self)
         self.mapper.setSubmitPolicy(QDataWidgetMapper.ManualSubmit)
         self.mapper.setModel(model)
+        # ID is mapped to a disabled dummy label in order to include it in the
+        # WidgetMapper --> not very elegant
+        self.mapper.addMapping(self.idLineEdit, model.ID)
         self.mapper.addMapping(self.sppLineEdit, model.SPECIES)
+        self.mapper.addMapping(self.abbrLineEdit, model.ABBR)
         self.mapper.addMapping(self.countSpinBox, model.COUNT)
         self.mapper.addMapping(self.dateTimeEdit, model.TIME)
         self.mapper.addMapping(self.locLineEdit, model.LOCATION)
@@ -149,14 +161,16 @@ class ObservationDialog(QDialog, Ui_observationDialog):
                             lambda: self.saveRecord(ObservationDialog.CURRENT))
         self.closeButton.clicked.connect(self.reject)
         
+        self.sppLineEdit.editingFinished.connect(self.update_fields)
+        
     def addRecord(self):
-        row = self.model.rowCount()    
-        self.mapper.submit()
+        row = self.model.rowCount()
         self.model.insertRow(row)
-        self.mapper.setCurrentIndex(row)
+        
         now = QDateTime.currentDateTime()
         self.dateTimeEdit.setDateTime(now)
         self.sppLineEdit.setFocus()
+        self.mapper.setCurrentIndex(row)
 
     def deleteRecord(self):
         species = self.sppLineEdit.text()
@@ -175,11 +189,10 @@ class ObservationDialog(QDialog, Ui_observationDialog):
             row = self.model.rowCount() - 1
         self.mapper.setCurrentIndex(row)
         
-#    def reject(self):
-#        self.accept()
+    def reject(self):
+        QDialog.reject(self)
 
     def accept(self):
-        
         self.mapper.submit()
         QDialog.accept(self)
     
@@ -187,7 +200,6 @@ class ObservationDialog(QDialog, Ui_observationDialog):
         ''' Method saves the current row in the self.mapper and moves the 
         data model cursor to a given location.
         '''
-        
         
         if self.sppLineEdit.text() == "":
             QMessageBox.warning(self, "Warning",
@@ -210,24 +222,25 @@ class ObservationDialog(QDialog, Ui_observationDialog):
         elif where == ObservationDialog.LAST:
             row = self.model.rowCount() - 1
         self.mapper.setCurrentIndex(row)
-    
-    @Slot()    
-    def on_sppLineEdit_editingFinished(self):
+
+    def update_fields(self):
         '''Called when editing of the sppLineEdit stops, etc. species name input
         is complete. Species name will be searched from the model and 
         corresponding abbreviation string and ID number will be set.'''
-        
         item = self.sppLineEdit.text()
-
+        item = item.capitalize()
         # Match the user entered name to an abbreviation in the species model        
         matches =  self.model.data_model.match(self.model.data_model.index(0, 4),
-                                             Qt.DisplayRole,
-                                             item,
-                                             hits=1,
-                                             flags=Qt.MatchExactly)
+                                               Qt.DisplayRole,
+                                               item,
+                                               hits=1,
+                                               flags=Qt.MatchExactly)
         if matches:
             # There should be only one match
             match_row = matches[0].row()
             abbreviation = self.model.data_model.index(match_row, 
                                             self.model.data_model.ABBR).data()
+            # Also get the ID for updating the model
+            id = self.model.data_model.index(match_row, 
+                                            self.model.data_model.ID).data()
             self.abbrLineEdit.setText(abbreviation)

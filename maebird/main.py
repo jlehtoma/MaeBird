@@ -2,7 +2,7 @@
 
 # Standard imports
 import platform
-import os, sys
+import sys
 
 # PySide imports
 
@@ -43,13 +43,12 @@ class MaeBird(QMainWindow, Ui_MainWindow):
         
         self.setWindowTitle(__APPNAME__ + ' ' + __VERSION__)
         
-        
         # TODO: loading settings should be moved to a separate method
         settings = QSettings()
         
         # Set up logging
         loggingdir = settings.value("Logging/loggingDir")
-        if loggingdir == "":
+        if loggingdir is None:
             loggingdir = __USER_DATA_DIR__
         self.logger = Logger('root', loggingdir=loggingdir)
         if settings.value("Settings/debugging"):

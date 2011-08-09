@@ -23,9 +23,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>417</width>
-        <height>317</height>
+        <y>-46</y>
+        <width>399</width>
+        <height>358</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">
@@ -39,7 +39,7 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="3" colspan="4">
+       <item row="0" column="4" colspan="4">
         <widget class="QLineEdit" name="sppLineEdit"/>
        </item>
        <item row="2" column="0">
@@ -52,10 +52,10 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="2" colspan="4">
+       <item row="2" column="2" colspan="5">
         <widget class="QLineEdit" name="locLineEdit"/>
        </item>
-       <item row="2" column="6">
+       <item row="2" column="7">
         <widget class="QPushButton" name="gpsButton">
          <property name="text">
           <string>GPS</string>
@@ -72,7 +72,7 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="3" colspan="4">
+       <item row="1" column="4" colspan="4">
         <widget class="QDateTimeEdit" name="dateTimeEdit">
          <property name="sizePolicy">
           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
@@ -98,7 +98,7 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="2" colspan="5">
+       <item row="3" column="2" colspan="6">
         <widget class="QPlainTextEdit" name="notesTextEdit">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
@@ -131,6 +131,78 @@
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="idLineEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>204</red>
+               <green>204</green>
+               <blue>204</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>204</red>
+               <green>204</green>
+               <blue>204</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>118</red>
+               <green>118</green>
+               <blue>117</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Id</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
